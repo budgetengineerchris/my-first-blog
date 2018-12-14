@@ -7,7 +7,6 @@ from .forms import PostForm
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user
-from guardian.shortcuts import assign_perm, get_perms
 from django.http import HttpResponse, Http404
 
 
